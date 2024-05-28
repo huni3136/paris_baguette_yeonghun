@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>request</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/request.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="top">
+                <span><img src="./image/menu.svg" alt=""></span>
+                <span><img src="./image/logo_white.png" alt=""></span>
+                <span><img src="./image/search_icon.svg" alt=""></span>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>가맹점상담신청</h1>
+            <span>
+                가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.
+                * 항목은필수입력사항입니다
+            </span>
+            <div class="consulting">
+                <dl class="num1">
+                    <dt>이름</dt>
+                    <dd><input type="text"  name="user_name" ></dd>
+                <dl class="num2">
+                    <dt>휴대폰번호</dt>
+                    <dd>
+                        <input type="text" name="user_num" required>
+                        <input type="text" name="user_num">
+                        <input type="text" name="user_num"> 
+                    </dd>
+                </dl>
+                <dl class="num3">
+                    <dt>이메일</dt>
+                    <dd>
+                        <input type="email" name="user_email" required>
+                        <span>@</span>
+                        <select name="email">
+                            <option value="">선택해주세요</option>
+                            <option value="google.com">google.com</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="kakako.com">kakako.com</option>
+                            <option value="hanmail.com">hanmail.com</option>
+                            <option value="직접 입력">직접 입력</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl class="num4">
+                    <dt>창업희망지역</dt>
+                    <dd><input type="text" name="user_founded" required></dd>
+                </dl>
+                <dl class="num5">
+                    <dt>신청계기</dt>
+                    <dd>
+                        <input type="radio" name="application_occasion" value="internet" id="internet">
+                        <label for="internet">인터넷 검색</label>
+                        <input type="radio" name="application_occasion" value="visit" id="visit">
+                        <label for="visit">매장 방문</label>
+                        <input type="radio" name="application_occasion" value="friend" id="friend">
+                        <label for="friend">지인 소개</label>
+                        <input type="radio" name="application_occasion" value="estate" id="estate">
+                        <label for="estate">컨설팅/부동산</label>
+                        <input type="radio" name="application_occasion" value="other" id="other">
+                        <label for="other">기타</label>
+                    </dd>
+                </dl>
+                <dl class="num6">
+                    <dt>제목</dt>
+                    <dd><input type="text" name="user_title"></dd>
+                </dl>
+                <dl class="num7">
+                    <dt>내용</dt>
+                    <dd><input type="text" name="user_detail"></dd>
+                </dl>
+            </div>
+            <button type="button" id="btn1">상담 신청하기</button>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="bottom_menu">
+                <div>
+                    <a href="./index.html"><img src="./image/storefront.svg"></a>
+                    <p>매장 소개</p>
+                </div>
+                <div>
+                    <a href="#"><img src="./image/headset_mic.svg"></a>
+                    <p>상담신청</p>
+                </div>
+                <div>
+                    <a href="#"><img src="./image/local_shipping.svg"></a>
+                    <p>배송서비스</p>
+                </div>
+                <div>
+                    <a href="#"><img src="./image/local_shipping.svg"></a>
+                    <p>프로모션</p>
+                </div>
+            </div
+        </section>
+    </footer>
+</body>
+</html>

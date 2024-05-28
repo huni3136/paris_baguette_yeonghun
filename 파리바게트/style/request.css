@@ -1,0 +1,86 @@
+html {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E6D9B7;
+    font-family: "Noto Sans KR", "맑은 고딕", sans-serif;
+    border: 1px solid black; 
+}
+header {
+    background-color: #023586;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+header section {}
+header section .top {}
+header section .top span {}
+header section .top span img {}
+main {}
+main section {}
+main section h1 {
+    font-size: 1.5rem;
+    color: #023586;
+    font-weight: 700;
+    padding-top: 60px; padding-bottom: 6px;
+}
+main section span {
+    border-bottom: 1px solid black;
+    font-size: 0.5rem;
+}
+main section .consulting {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+main section .consulting .num1 {}
+main section .consulting .num1 dt {float: left;}
+main section .consulting .num1 dd {margin-bottom: 10px;  width: 300px;}
+main section .consulting .num2 {}
+main section .consulting .num2 dt {}
+main section .consulting .num2 dd {width: 320px;}
+main section .consulting .num2 dd input {width: 60px;}
+main section .consulting .num3 {}
+main section .consulting .num3 dt {}
+main section .consulting .num3 dd {width: 320px;}
+main section .consulting .num3 dd input {width: 100px;}
+main section .consulting .num3 span {}
+main section .consulting .num3  .eamil {width: 100px;}
+main section .consulting .num4 {}
+main section .consulting .num4 dt {}
+main section .consulting .num4 dd {}
+main section .consulting .num5 {}
+main section .consulting .num5 dt {}
+main section .consulting .num5 dd {width: 200px; display: flex; align-items: center;}
+main section .consulting .num5 dd input {width: 10px; }
+main section .consulting .num5 dd input +label {font-size: 0.5rem;}
+main section .consulting .num6 {}
+main section .consulting .num6 dt {}
+main section .consulting .num6 dd {}
+main section .consulting .num6 dd input {height: 16px;}
+main section .consulting .num7 {}
+main section .consulting .num7 dt {}
+main section .consulting .num7 dd {}
+main section .consulting .num7 dd input {height: 220px; width: 250px;}
+main section button {
+    width: 400px; height: 40px;
+    background-color: #023586;
+    margin-bottom: 20px;
+    border: 0; color: #fff;
+}
+footer section {}
+.bottom_menu { 
+    bottom: 0px; left: 0px; 
+    width: 100%; height: 70px; 
+    z-index:100; 
+    background-color: #023586 
+}
+.bottom_menu > div { 
+    float: left; width: 25%; 
+    height: 100%; text-align: center; 
+    padding-top: 13px; 
+}
+footer section {}
+footer section .btm {}
+footer section .btm a {}
+footer section .btm a img {}
