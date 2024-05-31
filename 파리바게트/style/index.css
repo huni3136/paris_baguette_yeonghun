@@ -12,9 +12,10 @@ header {
     display: flex;
     justify-content: center;
 }
-header .top {}
-header .top span {}
-header .top span img {padding-left: 50px; padding-right: 50px;}
+header .menu_bar {display: flex; }
+header .menu_bar a {}
+header .menu_bar a img {padding-left: 50px; padding-right: 50px;}
+
 main {}
 main .bg {}
 main .bg1 {}

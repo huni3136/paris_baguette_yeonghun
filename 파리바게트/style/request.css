@@ -12,6 +12,9 @@ header {
     display: flex;
     justify-content: center;
 }
+header .menu_bar {display: flex; }
+header .menu_bar a {}
+header .menu_bar a img {padding-left: 50px; padding-right: 50px;}
 header section {}
 header section .top {}
 header section .top span {}
@@ -67,18 +70,21 @@ main section button {
     background-color: #023586;
     margin-bottom: 20px;
     border: 0; color: #fff;
+    cursor: pointer;
 }
 footer section {}
 .bottom_menu { 
     bottom: 0px; left: 0px; 
     width: 100%; height: 70px; 
     z-index:100; 
-    background-color: #023586 
+    background-color: #023586 ;
+    
 }
 .bottom_menu > div { 
     float: left; width: 25%; 
     height: 100%; text-align: center; 
     padding-top: 13px; 
+    color: #fff;
 }
 footer section {}
 footer section .btm {}
